@@ -12,12 +12,12 @@ This is a Django-based mailing system project that allows users to send emails d
 
 
 2**Update settings.py**:
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_USE_TLS = True
-EMAIL_PORT = 587
-EMAIL_HOST_USER ='your host email'
-EMAIL_HOST_PASSWORD = 'your password'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'  
+EMAIL_HOST = 'smtp.gmail.com'  
+EMAIL_USE_TLS = True  
+EMAIL_PORT = 587  
+EMAIL_HOST_USER ='your host email'  
+EMAIL_HOST_PASSWORD = 'your password'  
 
 ## make a form in frondtend
 
