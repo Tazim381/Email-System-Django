@@ -23,13 +23,13 @@ EMAIL_HOST_PASSWORD = 'your password'
 
 ## collect data and send the mail using send_mail function
 
-## send mail function have those attribute
-send_mail(
-    "Subject here",
-    "Here is the message.",
-    "from@example.com",//come from host email that you configure into settings.py file
-    ["to@example.com"],//come from form
-    fail_silently=False,
-)
+## send mail function have those attribute  
+send_mail(  
+    "Subject here",  
+    "Here is the message.",  
+    "from@example.com",//come from host email that you configure into settings.py file  
+    ["to@example.com"],//come from form  
+    fail_silently=False,  
+)  
 
 
