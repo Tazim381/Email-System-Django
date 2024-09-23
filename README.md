@@ -11,7 +11,7 @@ This is a Django-based mailing system project that allows users to send emails d
    from django.core.mail import send_mail
 
 
-2**Update settings.py**:
+2. **Update settings.py**:  
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'  
 EMAIL_HOST = 'smtp.gmail.com'  
 EMAIL_USE_TLS = True  
